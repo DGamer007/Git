@@ -1,0 +1,1 @@
+- Timeline tab in VSCode Sidebar will list all the Commits that have modified Currently focused File in Editor
