@@ -21,9 +21,25 @@ git diff [commitId1/HEAD~x] [commitId2/HEAD~y] --name-only
 
 # Shows filename along with short status
 git diff [commitId1/HEAD~x] [commitId2/HEAD~y] --name-status
+
+# We can use Dot Syntax in all of the Above commands
+git diff [commitId1/HEAD~x]..[commitId2/HEAD~y]
+git diff [commitId1/HEAD~x]...[commitId2/HEAD~y]
+# 2 or 3 dots, both works
 ```
 
-// To open Default Editor to compare changes
+Compare branches
+
+```ps1
+# Compare current Branch with Branch2
+git diff branch2
+
+# Compare Branch1 with Branch2
+git diff branch1..branch2
+git diff branch1...branch2
+```
+
+To open Default Editor to compare changes
 
 ```powershell
 # Compare - Working Tree and Staging Area
