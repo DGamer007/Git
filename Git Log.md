@@ -13,6 +13,9 @@ git log --stat
 
 # List all the changes made in each Commit along with Commit History
 git log --patch
+
+# List all the Commits (Even those which are ahead of the last commit)
+git log --all
 ```
 
 ### Filtering
@@ -41,9 +44,23 @@ If we want to list Range of Commits from Commit History
 #                 included    excluded
 git log --oneline commitId1...commitId2
 git log --oneline HEAD~x...HEAD~y
+git log --oneline commitId1..commitId2
+git log --oneline HEAD~x..HEAD~y
 
 # CommitIds must be whole
-# 3 dots syntax
+# 3 and 2 dots, both works
+```
+
+List commits between branches
+
+```ps1
+# Shows commits b/w current branch and branch2
+git log --oneline ..branch2
+git log --oneline ...branch2
+
+# Shows commits b/w branch1 and branch2
+git log --oneline branch1...branch2
+git log --oneline branch1..branch2
 ```
 
 If we want to list commits that have modified a file (let's say file1.txt)
