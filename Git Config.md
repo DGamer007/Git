@@ -30,20 +30,40 @@ git config --global core.autocrlf true
 git config --global core.autocrlf input
 ```
 
-Set Difftool Profile (Creating Profile for VSCode)
+Set Difftool
 
-```powershell
+```ps1
+# Set DiffTool Profile
 git config --global diff.tool vscode
+
+# Set DiffTool Command to Run
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
 ```
 
-Set Command to run for Difftool Profile created
+Set Mergetool
 
-```powershell
-git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+```ps1
+# Set MergeTool Profile
+git config --global merge.tool vscode
+
+# Set MergeTool Command to Run
+git config --global mergetool.vscode.cmd "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
+# This config will remove a Temp file(.orig extension) after the completion of Merge Operation
+git config --global mergetool.keepBackup false
 ```
 
 Create Alias for Git Commands (Creating alias named **stat**)
 
 ```powershell
 git config --global alias.stat "status -s"
+```
+
+Disable Fast-Forward Merge
+
+```ps1
+# Disable for All Git Repositories
+git config --global ff no
+
+# Disable for a Git Repository
+git config ff no
 ```

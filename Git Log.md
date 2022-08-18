@@ -16,6 +16,9 @@ git log --patch
 
 # List all the Commits (Even those which are ahead of the last commit)
 git log --all
+
+# Shows graph Structure of Branches and Commits
+git log --graph
 ```
 
 ### Filtering

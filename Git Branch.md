@@ -4,11 +4,20 @@ Branching in Git provides an Isolated Environment to work and Experiment with th
 # List all branches in Repo
 git branch
 
+# Shows branches that are merged with current Branch
+git branch --merged
+
+# Shows branches that are not merged with current Branch
+git branch --no-merged
+
 # Create Branch
 git branch new_branch_1
 
 # Switch Branch
 git switch new_branch_1
+
+# Create a Branch and then Switch to it
+git switch -c new_branch_2
 
 # Rename Branch
 git branch -m new_branch_1 branch_1
