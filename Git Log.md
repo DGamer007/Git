@@ -75,7 +75,7 @@ git log --oneline -- file1.txt
 If we want to Format the Output of **`git log`** command...
 
 ```ps1
-git log --pretty=format="Hello ! %an"
+git log --pretty=format:"Hello ! %an"
 
 # %an - Author Name
 ```
