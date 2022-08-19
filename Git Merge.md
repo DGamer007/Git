@@ -31,3 +31,19 @@ git merge --no-ff branch2
 # To Abort Merge Operation
 git merge --abort
 ```
+
+### Undo Faulty Merge Commit
+
+If we haven't shared our code with anyone else then we can use `git reset` and delete the Current Faulty Merge Commit and Create a new Correct Merge Commit from old bases.
+
+```ps1
+# Reset to the tip of Merge Commit
+git reset --hard commitId/HEAD~x
+```
+
+If we have shared our code with someone then we would not like to rewrite the Commit History in a complicated way. So here we'll use `git revert` to create a new Merge Commit which will resolve Faulty Merge Commit's code.
+
+```ps1
+# Revert to i-th parent of Merge Commit
+git revert -m parentIndex commitId/HEAD~x
+```
