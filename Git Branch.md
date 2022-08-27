@@ -27,4 +27,7 @@ git branch -m new_branch_1 branch_1
 git branch -d branch_1
 # If the branch is not merged with 'main' branch then We'll use 'D' flag to Forcefully Delete that branch.
 git branch -D branch_1
+
+# Shows how remote and local branches are diverging
+git branch -vv
 ```
