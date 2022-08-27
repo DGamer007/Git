@@ -47,3 +47,59 @@ If we have shared our code with someone then we would not like to rewrite the Co
 # Revert to i-th parent of Merge Commit
 git revert -m parentIndex commitId/HEAD~x
 ```
+
+### Squash & Merge
+
+Let's say we are working on **`bugfix`** branch and after resolving the Bug, its time to merge that branch into **`main`** branch. Now, we want to merge those branches but We also don't wanna keep commits of **`bugfix`** branch in our History. So, We can create a commit that Combines all the changes made throughout **`bugfix`** branch and then just attach that Commit to **`main`** branch.
+
+Combining those multiple commits into a Single Commit is Called Squashing.
+
+```ps1
+# Switch to branch1
+git switch branch1
+# Squash Changes
+git merge --squash branch2
+```
+
+These Squashed changes will be staged and we'll have to create a Commit Manually.
+
+After performing **Squash & Merge**, we still won't be able to see it in Merged Branches list...
+
+```ps1
+git branch --merged
+```
+
+So, It is highly suggested that we Delete Squash & Merge branches Just after we make a Successful Merge.
+
+### Rebase & Merge
+
+Suppose We have 3 commits on branch **`feature`** and after that we made a commit on Branch **`main`**. Now, If we want to perform **Fast-Forward** merge only between these 2 branches then Right now it seems impossible, because branch **`main`** already has another commit; So the branches are already diverged. Unless if we Change the base of branch **`feature`** to the Tip of branch **`main`**. To do that we can perform a Rebase Operation on Branch **`feature`** which will change the Base of branch **`feature`** and then we can apply Fast-Forward Merge to it.
+
+```ps1
+# Switch to Branch - Feature
+git switch feature
+
+# Perform Rebase operation on feature to change the Base to the tip of branch main
+git rebase main
+# Resolve conflicts if any
+
+# Switch back to Branch - Main
+git switch main
+
+# Perform Fast-Forward Merge
+git merge feature  # OR
+git merge --ff-only feature
+```
+
+> During the Rebase Operation...
+
+```ps1
+# Abort Rebase Operation
+git rebase --abort
+
+# Accept current Commit and Continue Rebase Operation
+git rebase --continue
+
+# Skip current Commit and Continue Rebase Operation
+git rebase --skip
+```
