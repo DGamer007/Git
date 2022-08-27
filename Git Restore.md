@@ -39,7 +39,7 @@ git clean -fd tests
 The restore methods mentioned above will use last commit as a Source for Restoring, But if we want to restore files from some other commit then...
 
 ```ps1
-git restore --source=(commitId/HEAD~x) file1.txt
-git restore --source=(commitId/HEAD~x) file2.txt file3.txt
-git restore --source=(commitId/HEAD~x) .
+git restore --source=(commitId/HEAD~x/branch) file1.txt
+git restore --source=(commitId/HEAD~x/branch) file2.txt file3.txt
+git restore --source=(commitId/HEAD~x/branch) .
 ```
