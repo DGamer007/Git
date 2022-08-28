@@ -24,5 +24,38 @@ git push -f [remote] [branch]
 # Push Tags to Remote Repo (By default Tags won't be pushed to Remote Repo)
 git push [remote] [tag]
 # To remove Tag
-git push [remote] --delete [tag]
+git push -d [remote] [tag] #OR
+git push --delete [remote] [tag]
+
+# Push and Set-Upstream to branch
+git push -u [remote] [branch]
+
+# Remove Remote Branch  (Local Branch Won't be affected, Need to delete it manually Afterwards)
+git push -d [remote] [branch]   #OR
+git push --delete [remote] [branch]
+
+# To Remove the Remote Tracking Branches that do not Exist in Remote Repo anymore
+git remote prune [remote]
+
 ```
+
+### Some Features on Github
+
+- Issues
+- Milestones
+
+### Contribute to Open-Source Project
+
+- We need to fork the Repository which we are willing to contribute to.
+- Then we'll Clone that Repository from our Account.
+- Work on it, Make some Commits and then Push those commits to Forked Repository in our Account.
+- Create a Pull Request to Base Repository.
+- Wait for Maintainer of Base Repository to verify our Pull Request.
+
+### Keep Forked Repository in Sync with Base Repository
+
+- Add Base Repository Remote reference to Local Repository
+- Pull Changes from Base Repo directly into Local Repo
+- Merge those Changes
+- Push new Code to Forked Repo in our Account
+- All done. Now the Forked Repo is in sync with Base Repo.

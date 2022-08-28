@@ -19,6 +19,11 @@ git switch new_branch_1
 # Create a Branch and then Switch to it
 git switch -c new_branch_2
 
+# Create a Branch, Set Upstream to it then Switch to it
+git switch -c new_branch_3 remote/new_branch_3
+# new_branch_3 -> Local Branch
+# remote/new_branch_3 -> Remote Branch named 'new_branch_3' on 'remote'
+
 # Rename Branch
 git branch -m new_branch_1 branch_1
 
@@ -30,4 +35,13 @@ git branch -D branch_1
 
 # Shows how remote and local branches are diverging
 git branch -vv
+
+# Shows Remote Tracking Branches
+git branch -r
+
+# Set Upstream to Current Branch
+git branch -u github/main
+
+# Unset Upstream from Current Branch
+git branch --unset-upstream
 ```
