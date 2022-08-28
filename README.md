@@ -21,5 +21,8 @@
 19. [Git Stash](/Git%20Stash.md)
 20. [Git CherryPick](/Git%20CherryPick.md)
 21. [Remote Repo](/Remote%20Repo.md)
+22. [Git Reflog](/Git%20Reflog.md)
+23. [Git Revert](/Git%20Revert.md)
+24. [Rewrite Commit History](/Rewrite%20Commit%20History.md)
 
 - [Info](/Info.md)

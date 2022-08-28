@@ -1,30 +1,21 @@
 ### Types of Reset
 
-- Soft
+- Soft (Removes the commit Only)
 
-  - HEAD Pointer will point to `<commit>`
-  - Working Tree will remain untouched
-  - Staging Area won't lose the changes made before RESET operation
-  - Staging Area will also have changes that are made since the Commit We are trying to reset to.
-    - Let's say we are on Commit `129cdsa`.
-    - We want to RESET our HEAD Pointer to a Commit `7sa722s` Which is 3 Commits behind than the Above Commit.
-    - We'll use `git reset --soft 7sa722s`
-    - So, Our HEAD Pointer will now point to `7sa722s`
-    - Staging Area will contain all the changes that are made between commits (`7sa722s`,`129cdsa`]
+  - HEAD Pointer will move
+  - Working Tree and Staging Area will remain untouched.
 
-- Mixed
+- Mixed (Unstage files)
 
   - Default option for `git reset`
-  - HEAD Pointer will point to a Different Commit
+  - HEAD Pointer will move
   - Working Tree won't be affected
-  - Changes before RESET will be persisted but Staged Changes will be Unstaged
-  - Staging area will also have changes that are made since the Commit we are trying to RESET to and they will also be Unstaged changes
+  - Staging Area will hold only THE COMMIT, Other changes will be unstaged
 
-- Hard
+- Hard (Discard Local Changes)
 
-  - HEAD Pointer will point to a Different Commit
-  - Staging Area will be cleared
-  - Working Tree will be replaced by that Commit's Working Tree
+  - HEAD Pointer will move
+  - Staging Area and Working Tree will hold only THE COMMIT
 
 Reset HEAD Pointer to a Commit
 
