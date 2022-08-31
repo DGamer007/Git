@@ -1,3 +1,5 @@
+# Remote Repo
+
 ```ps1
 # Clone Remote Repo
 git clone [repo_url]
@@ -12,6 +14,8 @@ git fetch [remote] [branch]
 # Download + Merge Commits from Remote Repo into Local branch
 # Will create a Merge Commit
 git pull [remote] [branch]
+# Pull from Different Branch
+git pull [remote] [remote_branch]:[local_branch]
 
 # Will use Rebase & Merge approach
 git pull --rebase [remote] [branch]
@@ -21,6 +25,8 @@ git pull --rebase [remote] [branch]
 git push [remote] [branch]
 # Push Commits Forcefully - Will Rewrite the Commit History on Remote Repo as well (Do not use this Until it's necessary)
 git push -f [remote] [branch]
+# Push to different Branch on Remote Repo
+git push [remote] [local_branch]:[remote_branch]
 
 # Push Tags to Remote Repo (By default Tags won't be pushed to Remote Repo)
 git push [remote] [tag]

@@ -1,3 +1,5 @@
+# Git Bisect
+
 Let's say there is a Bug in our Code and we want to find out which commit introduced this Bug
 
 So, the typical Approach would be...

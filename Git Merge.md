@@ -1,3 +1,5 @@
+# Git Merge
+
 ### Types of Merge in Git
 
 - Fast-Forward Merge (If branches are not Diverged)

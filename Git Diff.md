@@ -1,3 +1,5 @@
+# Git Diff
+
 Git provides us with a command using which we can compare different levels of our Git Repository
 
 ```powershell

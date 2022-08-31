@@ -1,4 +1,6 @@
-# Suggested Reading Sequence
+# Git Version Control
+
+### Suggested Reading Sequence
 
 1. [Git Config](/Git%20Config.md)
 2. [Git Basics](/Git%20Basics.md)

@@ -1,3 +1,5 @@
+# Git Reset
+
 ### Types of Reset
 
 - Soft (Removes the commit Only)
