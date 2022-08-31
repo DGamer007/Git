@@ -1,3 +1,5 @@
+# Git Shortlog
+
 List all Authors in Repository along with a list of Commits they have made
 
 ```ps1
@@ -13,4 +15,4 @@ git shortlog -s
 git shortlog -e
 ```
 
-> We can use all the filter with `git shortlog` which we uses with `git log`
+> We can use all the filters with `git shortlog` which we use with `git log`

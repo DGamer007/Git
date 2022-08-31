@@ -1,3 +1,5 @@
+# Info
+
 - Timeline tab in VSCode Sidebar will list all the Commits that have modified Currently focused File in Editor
 
 - Before Setting up Remote Tracking Branches / Upstream Branches, We need to fetch them using **`git fetch`** command

@@ -1,3 +1,5 @@
+# Git Checkout
+
 Checking out any commit will replace our code in Working Tree with the Code of the Commit we are checking out.
 
 Checkout any Commit

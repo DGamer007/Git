@@ -1,3 +1,5 @@
+# Ignore Files
+
 If we don't want Git to track a file or an entire directory from our Working Tree then we mention that _filename_ or _directory name_ in **.gitignore** file
 
 So, let's say We have created a file named _file1.txt_ and we don't want Git to track it, then we'll mention it in **.gitignore** file as...

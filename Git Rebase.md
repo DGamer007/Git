@@ -1,3 +1,5 @@
+# Git Rebase
+
 Git Rebase serves the purpose of Integrating Changes from One Branch onto Another.
 
 It kind of Changes the Base of Branch.
@@ -17,7 +19,7 @@ git rebase main
 Start Interactive Rebasing
 
 ```ps1
-# Starts Rabasing from the Parent of Provided Commit to Last Commit
+# Starts Rabasing from the Provided Commit to Last Commit
 git rebase -i [parentCommit/HEAD~x]
 
 # Here Caret sign denotes Parent of CommitId/HEAD~y

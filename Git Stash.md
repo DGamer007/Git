@@ -1,3 +1,5 @@
+# Git Stash
+
 Stashing is nothing but storing our work in a safe place without including it in a Git Commit History.
 
 ```ps1

@@ -1,3 +1,5 @@
+# Rewrite Commit History
+
 ### Undo Commits
 
 We can Undo Commits using **`git revert`** and **`git reset`** both. If the Commits we are trying to Undo are Public, then we should not use **`git reset`**.

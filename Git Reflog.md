@@ -1,3 +1,5 @@
+# Git Reflog
+
 ```ps1
 # Shows History of HEAD Pointer in Repository
 # Using this we can find lost commits if they are not garbage collected by Git

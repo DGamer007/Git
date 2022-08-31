@@ -1,3 +1,5 @@
+# Git Tag
+
 Show all available Tags in Repository
 
 ```ps1
@@ -8,7 +10,8 @@ git tag
 git tag -n
 ```
 
-Tag a Commit
+### Tag a Commit
+
 This is a Lightweight Tag which won't contain any additional Information
 
 ```ps1
