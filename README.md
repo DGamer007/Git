@@ -15,7 +15,7 @@
 13. [Git Tag](/Git%20Tag.md)
 14. [Git Bisect](/Git%20Bisect.md)
 15. [Git Checkout](/Git%20Checkout.md)
-16. [Git Reset](/Git%20Restore.md)
+16. [Git Reset](/Git%20Reset.md)
 17. [Git Branch](/Git%20Branch.md)
 18. [Git Merge](/Git%20Merge.md)
 19. [Git Stash](/Git%20Stash.md)

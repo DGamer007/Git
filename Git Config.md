@@ -58,12 +58,18 @@ Create Alias for Git Commands (Creating alias named **stat**)
 git config --global alias.stat "status -s"
 ```
 
-Disable Fast-Forward Merge
+Configure Fast-Forward Merge
 
 ```ps1
-# Disable for All Git Repositories
-git config --global ff no
+# Disable for All Git Repositories and for Every Branch
+git config --global merge.ff false
 
 # Disable for a Git Repository
-git config ff no
+git config merge.ff false
+
+# Disable for given Branch
+git config branch.[branchName].mergeoptions "--no-ff"
+
+# Unset it
+git config --global --unset merge.ff
 ```

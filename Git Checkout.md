@@ -19,3 +19,5 @@ When we are restoring any deleted file from previous commits, we should make sur
 ```ps1
 git log --oneline -- filename
 ```
+
+> We cannot Switch to another Commit If we have Uncommited Changes in Staging Area

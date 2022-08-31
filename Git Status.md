@@ -4,11 +4,11 @@ Get Status of Git Repository
 # Verbose Output
 git status
 
-# Short Output
+# Shortened Output
 git status -s
 ```
 
-Shorten Output form:
+Shortened Output form:
 
 ```powershell
 MM file1.txt    # Modifications in S.A and W.T
