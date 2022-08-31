@@ -18,7 +18,7 @@ git restore .
 
 > If the file is Untracked then after restoring, it would remain Untracked.
 
-To remove/revert/clean Untracked changes
+To Remove Untracked changes
 
 ```ps1
 # Clean all Untracked files and Directories in Working Tree

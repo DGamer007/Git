@@ -37,4 +37,16 @@ git reset commitId/HEAD~x -- filename
 
 #### Soft Mode usecase
 
-> Resetting with a Soft Mode is kind of a solution for Squashing Commits. So, as we know We can Just Reset the Location of HEAD Pointer with Soft Mode, which will keep Changes in place and also give us changes in Staging Area that have been made since the Commit We have reset to. So, Now that all those changes we have in Staging Area; We can just create a new commit Which will be the Squashed Commit. And the actual Commits will be Garbage collected by Git.
+> Resetting with a Soft Mode is kind of a solution for Squashing Commits. So, as we know We can Just Reset the Location of HEAD Pointer with Soft Mode, which will keep Changes in place and also give us changes in Staging Area that have been made since the Commit We have reset to. So, Now that we have all those changes in Staging Area; We can just create a new commit Which will be the Squashed Commit. And the actual Commits will be Garbage collected by Git.
+
+#### Mixed Mode usecase
+
+> As we understand that Mixed mode will affect Staging Area but not the Working Tree; So If we were to 'Reset' HEAD pointer to last Commit with Mixed mode, the Staging Area will be replaced with Last Commit's Content and That means any Staged changes we had in Staging Area are gone. But as this Operation doesn't affect Working Tree, The changes will remain safe but now the Staged Changes are Unstaged. So, One of the usecases of mixed mode is to 'Unstage Changes' as shown below.
+
+```ps1
+# Unstage all changes
+git reset HEAD
+
+# Unstage file
+git reset HEAD file1.txt
+```

@@ -18,6 +18,12 @@ This will open Default Code Editor and in it We'll be able to Write out _Commit 
 
 ```powershell
 git commit
+
+# Structure will be like
+
+#1 | Commit Message
+#2 |
+#3 | Commit Description
 ```
 
 This will stage and commit changes in a single command

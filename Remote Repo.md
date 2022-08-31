@@ -15,10 +15,11 @@ git pull [remote] [branch]
 
 # Will use Rebase & Merge approach
 git pull --rebase [remote] [branch]
+# Our work will be Placed on Top of Merge
 
 # Push/Upload Commits to Remote Repo
 git push [remote] [branch]
-# Push Commits Forcefully - Will Rewrite the Commit History on Remote Repo as well (Try not to use this)
+# Push Commits Forcefully - Will Rewrite the Commit History on Remote Repo as well (Do not use this Until it's necessary)
 git push -f [remote] [branch]
 
 # Push Tags to Remote Repo (By default Tags won't be pushed to Remote Repo)
@@ -36,7 +37,6 @@ git push --delete [remote] [branch]
 
 # To Remove the Remote Tracking Branches that do not Exist in Remote Repo anymore
 git remote prune [remote]
-
 ```
 
 ### Some Features on Github

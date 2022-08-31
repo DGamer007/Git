@@ -23,7 +23,7 @@ git merge --no-ff branch2
 - We'll Accept the changes either **Current**, **Incoming** or **Both**.
 - Do not Introduce any extra code while we are solving Conflicts in a Merge Operation.
 - When we are done accepting those changes we'll stage those files using **`git add`** command
-- We'll commit those changes using **`git commit`** command
+- We'll commit those changes using **`git commit`**
 
 > While merge Operation, we usually don't provide a _Commit Message_ with `git commit` command because if we don't provide a Commit Message, Git will open a default text editor for a Commit Message with a predefined Merge Commit Message to commit the Merge.
 
@@ -47,6 +47,8 @@ If we have shared our code with someone then we would not like to rewrite the Co
 # Revert to i-th parent of Merge Commit
 git revert -m parentIndex commitId/HEAD~x
 ```
+
+> If we merged **feature** branch INTO **main** branch then 1st Parent of the Merge Commit will be the **main** branch.
 
 ### Squash & Merge
 

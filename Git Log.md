@@ -45,13 +45,8 @@ If we want to list Range of Commits from Commit History
 
 ```ps1
 #                 included    excluded
-git log --oneline commitId1...commitId2
-git log --oneline HEAD~x...HEAD~y
 git log --oneline commitId1..commitId2
 git log --oneline HEAD~x..HEAD~y
-
-# CommitIds must be whole
-# 3 and 2 dots, both works
 ```
 
 List commits between branches
@@ -59,10 +54,8 @@ List commits between branches
 ```ps1
 # Shows commits b/w current branch and branch2
 git log --oneline ..branch2
-git log --oneline ...branch2
 
 # Shows commits b/w branch1 and branch2
-git log --oneline branch1...branch2
 git log --oneline branch1..branch2
 ```
 

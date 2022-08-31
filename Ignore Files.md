@@ -15,13 +15,9 @@ src/file1.txt
 src/
 ```
 
-Now, let's say We created a file that we didn't want Git to track but Accidently we Commited that file once.
+Now, let's say We created a file that we didn't want Git to track but Accidently we Commited that file once. Now, That file is also in **Working Tree** and in **Git Staging Area**. So, first we need to remove that file from _Git Staging Area_ and then mention that file in **.gitignore** file to stop Git from tracking it afterwards.
 
-If we wanted to remove that file completely then we could use `git rm` command, which will remove it from Git Staging Area as well as Working Tree.
-
-But We want to keep that file in Working Tree and just remove it from Git Staging Area. Now, if we want Git to stop tracking that file, ofcourse we'll have to mention that file in **.gitignore** but we'll also have to remove it from Staging Area.
-
-So, to remove a file **just from Staging Area**
+If we wanted to remove that file completely then we could use `git rm` command, which will remove it from Git Staging Area as well as Working Tree. But We want to keep that file in Working Tree and just remove it from Git Staging Area. So, to remove a file **just from Staging Area**...
 
 ```powershell
 git rm --cached file1.txt
