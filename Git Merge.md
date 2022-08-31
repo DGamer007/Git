@@ -17,9 +17,7 @@ git merge --no-ff branch2
 ### When we have Merge Conflicts
 
 - If there is a Merge Conflict, We'll be shown a CONFLICT message by Git.
-- Git tries to merge files automatically if the changes are not overlapping.
-- Now, for the changes that cannot be merged automatically; We do those manually.
-- We'll open text editor of our choice.
+- In-order to merge changes, We'll open mergetool of our choice.
 - We'll Accept the changes either **Current**, **Incoming** or **Both**.
 - Do not Introduce any extra code while we are solving Conflicts in a Merge Operation.
 - When we are done accepting those changes we'll stage those files using **`git add`** command

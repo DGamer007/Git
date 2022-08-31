@@ -23,6 +23,7 @@
 21. [Remote Repo](/Remote%20Repo.md)
 22. [Git Reflog](/Git%20Reflog.md)
 23. [Git Revert](/Git%20Revert.md)
-24. [Rewrite Commit History](/Rewrite%20Commit%20History.md)
+24. [Git Rebase](/Git%20Rebase.md)
+25. [Rewrite Commit History](/Rewrite%20Commit%20History.md)
 
 - [Info](/Info.md)

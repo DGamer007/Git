@@ -1,6 +1,4 @@
-`git status` command will only tell us which files have been modified but not the exact changes that have been done to those files.
-
-Git provides us with a command using which we can compare different levels of Code
+Git provides us with a command using which we can compare different levels of our Git Repository
 
 ```powershell
 # Compare - Working Tree and Staging Area

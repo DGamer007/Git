@@ -25,3 +25,25 @@ git reset --mixed HEAD~1
 # Create a new Commit
 git commit -m "Message"
 ```
+
+### Amend an Earlier Commit
+
+To Amend Earlier Commits we use `edit` option in **Interactive Rebasing**.
+
+We mark a Commit with `edit` option and then once we are at that Commit in Rebasing, We make some changes and then we amend those changes to the Commit we have chosen to Edit. As shown below...
+
+```ps1
+git commit --amend
+```
+
+### Split Commit
+
+If we want to split a single commit into Multiple commits then we can use **Interactive Rebasing**. We can use **`edit`** option in it. After applying edit option, Our HEAD pointer points to that commit.
+Now that we want current Commit to be split, we first need to unstage all its changes and Move HEAD pointer to one step back...
+
+```ps1
+# Unstage changes and go to previous Commit
+git reset HEAD~1
+```
+
+After unstaging changes we can now stage appropriate changes and make commits. And these commits will replace the Commit that we accessed to _Edit_.
