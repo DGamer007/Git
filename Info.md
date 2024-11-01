@@ -1,7 +1,5 @@
 # Info
 
-- Timeline tab in VSCode Sidebar will list all the Commits that have modified Currently focused File in Editor
+- In VSCode, the **Timeline** tab in the sidebar shows all commits that have modified the currently focused file.
 
-- Before Setting up Remote Tracking Branches / Upstream Branches, We need to fetch them using **`git fetch`** command
-
-- Once the Upstream branch is set, We no longer need to specify Remote-Name and Branch-Name to Push, Pull Or Fetch Commits **to/from Upstream Branch**.
+- Before setting up a remote tracking or upstream branch, it's a good practice to run `git fetch` first. This ensures that your local repository is synced with the remote branches and prevents potential errors if the branch hasn’t been fetched locally yet. Once the upstream branch is configured, you can push, pull, or fetch commits without needing to specify the remote and branch names.
