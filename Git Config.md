@@ -75,3 +75,11 @@ git config branch.[branchName].mergeoptions "--no-ff"
 # Unset it
 git config --global --unset merge.ff
 ```
+
+Enable Reuse Recorded Resolution (RERERE)
+
+> Enable this feature to cache resolved conflicts so they can be automatically applied if the same conflicts arise in the future (which often happens while rebasing a series of commits).
+
+```ps1
+git config --global rerere.enable true
+```
