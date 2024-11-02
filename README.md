@@ -27,5 +27,6 @@
 23. [Git Revert](/Git%20Revert.md)
 24. [Git Rebase](/Git%20Rebase.md)
 25. [Rewrite Commit History](/Rewrite%20Commit%20History.md)
+26. [Git Profile Management](/Git%20Profile%20Management.md)
 
 - [Info](/Info.md)
