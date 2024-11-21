@@ -1,32 +1,37 @@
-# Git Version Control
+# The Git Handbook: Concepts and Practices
 
-### Suggested Reading Sequence
+This guide is designed to explain Git concepts in a clear and practical way, with examples to help users of all experience levels—from beginners to senior software engineers—understand and apply Git effectively. Alongside covering the foundational concepts, it introduces best practices and explores common day-to-day workflows to streamline version control tasks in your development cycle.
 
-1. [Git Config](/Git%20Config.md)
-2. [Git Basics](/Git%20Basics.md)
-3. [Remove Files](/Remove%20Files.md)
-4. [Rename or Move Files](/Rename%20or%20Move%20Files.md)
-5. [Ignore Files](/Ignore%20Files.md)
-6. [Git Status](/Git%20Status.md)
-7. [Git Diff](/Git%20Diff.md)
-8. [Git Show](/Git%20Show.md)
-9. [Git Restore](/Git%20Restore.md)
-10. [Git Log](/Git%20Log.md)
-11. [Git Shortlog](/Git%20Shortlog.md)
-12. [Git Blame](/Git%20Blame.md)
-13. [Git Tag](/Git%20Tag.md)
-14. [Git Bisect](/Git%20Bisect.md)
-15. [Git Checkout](/Git%20Checkout.md)
-16. [Git Reset](/Git%20Reset.md)
-17. [Git Branch](/Git%20Branch.md)
-18. [Git Merge](/Git%20Merge.md)
-19. [Git Stash](/Git%20Stash.md)
-20. [Git CherryPick](/Git%20CherryPick.md)
-21. [Remote Repo](/Remote%20Repo.md)
-22. [Git Reflog](/Git%20Reflog.md)
-23. [Git Revert](/Git%20Revert.md)
-24. [Git Rebase](/Git%20Rebase.md)
-25. [Rewrite Commit History](/Rewrite%20Commit%20History.md)
-26. [Git Profile Management](/Git%20Profile%20Management.md)
+If you feel something could be improved or have better examples to contribute, feel free to raise a Pull Request (PR). Your contributions are always welcome!
 
-- [Info](/Info.md)
+If you find this repository helpful, don’t forget to give it a ⭐️ to show your support. 😊
+
+## Table of Contents <!-- {docsify-ignore} -->
+
+- [Git Config](/git-config/)
+- [Git Basics](/git-basics/)
+- [Remove Files](/remove-files/)
+- [Rename or Move Files](/rename-or-move-files/)
+- [Ignore Files](/ignore-files/)
+- [Git Status](/git-status/)
+- [Git Diff](/git-diff/)
+- [Git Show](/git-show/)
+- [Git Restore](/git-restore/)
+- [Git Log](/git-log/)
+- [Git Shortlog](/git-shortlog/)
+- [Git Blame](/git-blame/)
+- [Git Tag](/git-tag/)
+- [Git Bisect](/git-bisect/)
+- [Git Checkout](/git-checkout/)
+- [Git Reset](/git-reset/)
+- [Git Branch](/git-branch/)
+- [Git Merge](/git-merge/)
+- [Git Stash](/git-stash/)
+- [Git CherryPick](/git-cherrypick/)
+- [Remote Repo](/remote-repo/)
+- [Git Reflog](/git-reflog/)
+- [Git Revert](/git-revert/)
+- [Git Rebase](/git-rebase/)
+- [Rewrite Commit History](/rewrite-commit-history/)
+- [Git Profile Management ⭐️](/git-profile-management/)
+- [Git Miscellanea](/git-miscellanea/)
