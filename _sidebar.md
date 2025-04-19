@@ -26,4 +26,5 @@
         - [Git Rebase](/git-rebase/)
         - [Rewrite Commit History](/rewrite-commit-history/)
         - [Git Profile Management ⭐️](/git-profile-management/)
+        - [The Shared Code Dilemma ⭐️](/shared-code-dilemma/)
         - [Git Miscellanea](/git-miscellanea/)

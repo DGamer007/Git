@@ -34,4 +34,5 @@ If you find this repository helpful, don’t forget to give it a ⭐️ to show 
 - [Git Rebase](/git-rebase/)
 - [Rewrite Commit History](/rewrite-commit-history/)
 - [Git Profile Management ⭐️](/git-profile-management/)
+- [The Shared Code Dilemma ⭐️](/shared-code-dilemma/)
 - [Git Miscellanea](/git-miscellanea/)
